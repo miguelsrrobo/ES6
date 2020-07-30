@@ -1,14 +1,12 @@
+// REST
+
 const usuario = {
-    nome:'Diego',
-    idade:'23',
-    endereco: {
-        cidade: 'Rio do Sul',
-        estado: 'SC',
-    },
+  nome: 'Diego',
+  idade: 23,
+  emdereso: 'sc'
 };
 
-function mostraNome({nome, idade}){
-    console.log(nome, idade);
-}
+const {nome, ...resto} = usuario;
 
-mostraNome(usuario);
+console.log(nome);
+console.log(resto);
