@@ -9,4 +9,9 @@ function soma(a, b) {
   return params;
 }
 
-console.log(soma(1, 3, 4, 5, 6, 7, 8, 9));
+console.log(soma(1, 3, 4, 5, 6, 7, 8, 9)); // SPREAD
+
+var arr1 = [1, 2, 3];
+var arr2 = [4, 5, 6];
+var arr3 = [].concat(arr1, arr2);
+console.log(arr3);
