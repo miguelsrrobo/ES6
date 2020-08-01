@@ -1,18 +1,4 @@
- // REST
+const name = 'Diego';
+const idade = 23;
 
-function soma(a, b, ...params){
-  return params;
-}
-
-console.log(soma(1,3,4,5,6,7,8,9));
-
- // SPREAD
-
-const usuario1 = {
-  nome: 'Diego',
-  idade: 23,
-  empresa: 'Rocketseat',
-};
-
-const usuario2 = {... usuario1, nome: 'Gabriel'};
-console.log(usuario2);
+console.log(`Meu nome é  ${nome}  e tenho ${idade} anos.`);
